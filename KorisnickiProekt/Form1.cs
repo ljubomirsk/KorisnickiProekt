@@ -31,37 +31,6 @@ namespace KorisnickiProekt
             labelTestRna.Parent = panelTests;
         }
 
-        private void homeBtn_Click(object sender, System.EventArgs e)
-        {
-            panelHome.Show();
-            panelMaterials.Hide();
-            panelTests.Hide();
-            this.BackgroundImage = Properties.Resources.DNA_Strand;
-            // Button myButton = new Button();
-            // myButton.Text = "some text";
-            // // attach event handler for Click event 
-            // // (assuming ButtonClickHandler is an existing method in the class)
-            //// myButton.Click += ButtonClickHandler;
-            // materialsPnl.Controls.Add(myButton);
-        }
-
-        private void materialsBtn_Click(object sender, System.EventArgs e)
-        {
-            panelMaterials.Show();
-            panelHome.Hide();
-            panelTests.Hide();
-
-            this.BackgroundImage = Properties.Resources.dna_1370603787LgY;
-        }
-
-        private void testsBtn_Click(object sender, System.EventArgs e)
-        {
-            panelMaterials.Hide();
-            panelHome.Hide();
-            panelTests.Show();
-            this.BackgroundImage = Properties.Resources.shutterstock_61775431;
-        }
-
         private void linkNajbitno_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start("najbitnoto.pdf");
@@ -110,6 +79,37 @@ namespace KorisnickiProekt
         private void linkDnaRnaWatson_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start("watson_06.pdf");
+        }
+
+        private void pictureBox1_Click(object sender, System.EventArgs e)
+        {
+            panelMaterials.Hide();
+            panelHome.Hide();
+            panelTests.Show();
+            this.BackgroundImage = Properties.Resources.shutterstock_61775431;
+        }
+
+        private void pictureBox2_Click(object sender, System.EventArgs e)
+        {
+            panelHome.Show();
+            panelMaterials.Hide();
+            panelTests.Hide();
+            this.BackgroundImage = Properties.Resources.DNA_Strand;
+            // Button myButton = new Button();
+            // myButton.Text = "some text";
+            // // attach event handler for Click event 
+            // // (assuming ButtonClickHandler is an existing method in the class)
+            //// myButton.Click += ButtonClickHandler;
+            // materialsPnl.Controls.Add(myButton);
+        }
+
+        private void pictureBox3_Click(object sender, System.EventArgs e)
+        {
+            panelMaterials.Show();
+            panelHome.Hide();
+            panelTests.Hide();
+
+            this.BackgroundImage = Properties.Resources.dna_1370603787LgY;
         }
     }
 }

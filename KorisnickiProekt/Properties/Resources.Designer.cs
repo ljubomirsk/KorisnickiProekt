@@ -83,6 +83,36 @@ namespace KorisnickiProekt.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap dock_icon_home_button_by_moa_isa_jediknight {
+            get {
+                object obj = ResourceManager.GetObject("dock_icon_home_button_by_moa_isa_jediknight", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap LT_Exercises {
+            get {
+                object obj = ResourceManager.GetObject("LT_Exercises", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ord__Prof__Mukrimin_Halil_Yinanc_Kutuphanesi_site_link_1507042248572310 {
+            get {
+                object obj = ResourceManager.GetObject("Ord__Prof__Mukrimin_Halil_Yinanc_Kutuphanesi_site_link_1507042248572310", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap shutterstock_61775431 {
             get {
                 object obj = ResourceManager.GetObject("shutterstock_61775431", resourceCulture);

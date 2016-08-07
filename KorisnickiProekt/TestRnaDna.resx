@@ -117,23 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="dna_1370603787LgY" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dna-1370603787LgY.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DNA_Strand" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DNA-Strand.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="shutterstock_61775431" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shutterstock_61775431.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LT_Exercises" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LT-Exercises.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dock_icon_home_button_by_moa_isa_jediknight" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dock_icon_home_button_by_moa_isa_jediknight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ord__Prof__Mukrimin_Halil_Yinanc_Kutuphanesi_site_link_1507042248572310" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ord._Prof._Mukrimin_Halil_Yinanc_Kutuphanesi_site_link_1507042248572310.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

@@ -30,11 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panelHome = new System.Windows.Forms.Panel();
-            this.homeBtn = new System.Windows.Forms.Button();
             this.panelMaterials = new System.Windows.Forms.Panel();
-            this.materialsBtn = new System.Windows.Forms.Button();
-            this.testsBtn = new System.Windows.Forms.Button();
             this.panelTests = new System.Windows.Forms.Panel();
+            this.labelDnaVsRnaTest = new System.Windows.Forms.Label();
+            this.labelTestRna = new System.Windows.Forms.Label();
+            this.labelTestDna = new System.Windows.Forms.Label();
             this.linkDnaRnaWatson = new System.Windows.Forms.LinkLabel();
             this.linkGenomeSeq = new System.Windows.Forms.LinkLabel();
             this.linkDnaAdd = new System.Windows.Forms.LinkLabel();
@@ -50,10 +50,13 @@
             this.labelDna = new System.Windows.Forms.Label();
             this.linkNajbitno = new System.Windows.Forms.LinkLabel();
             this.label1 = new System.Windows.Forms.Label();
-            this.labelTestDna = new System.Windows.Forms.Label();
-            this.labelTestRna = new System.Windows.Forms.Label();
-            this.labelDnaVsRnaTest = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panelTests.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // panelHome
@@ -64,17 +67,6 @@
             this.panelHome.Size = new System.Drawing.Size(1006, 440);
             this.panelHome.TabIndex = 0;
             // 
-            // homeBtn
-            // 
-            this.homeBtn.BackColor = System.Drawing.Color.Transparent;
-            this.homeBtn.Location = new System.Drawing.Point(13, 13);
-            this.homeBtn.Name = "homeBtn";
-            this.homeBtn.Size = new System.Drawing.Size(75, 23);
-            this.homeBtn.TabIndex = 1;
-            this.homeBtn.Text = "Home";
-            this.homeBtn.UseVisualStyleBackColor = false;
-            this.homeBtn.Click += new System.EventHandler(this.homeBtn_Click);
-            // 
             // panelMaterials
             // 
             this.panelMaterials.BackColor = System.Drawing.Color.Transparent;
@@ -83,28 +75,6 @@
             this.panelMaterials.Size = new System.Drawing.Size(1006, 437);
             this.panelMaterials.TabIndex = 2;
             this.panelMaterials.Visible = false;
-            // 
-            // materialsBtn
-            // 
-            this.materialsBtn.BackColor = System.Drawing.Color.Transparent;
-            this.materialsBtn.Location = new System.Drawing.Point(94, 13);
-            this.materialsBtn.Name = "materialsBtn";
-            this.materialsBtn.Size = new System.Drawing.Size(75, 23);
-            this.materialsBtn.TabIndex = 3;
-            this.materialsBtn.Text = "Materials";
-            this.materialsBtn.UseVisualStyleBackColor = false;
-            this.materialsBtn.Click += new System.EventHandler(this.materialsBtn_Click);
-            // 
-            // testsBtn
-            // 
-            this.testsBtn.BackColor = System.Drawing.Color.Transparent;
-            this.testsBtn.Location = new System.Drawing.Point(175, 13);
-            this.testsBtn.Name = "testsBtn";
-            this.testsBtn.Size = new System.Drawing.Size(75, 23);
-            this.testsBtn.TabIndex = 4;
-            this.testsBtn.Text = "Tests";
-            this.testsBtn.UseVisualStyleBackColor = false;
-            this.testsBtn.Click += new System.EventHandler(this.testsBtn_Click);
             // 
             // panelTests
             // 
@@ -132,6 +102,41 @@
             this.panelTests.Size = new System.Drawing.Size(1006, 437);
             this.panelTests.TabIndex = 5;
             this.panelTests.Visible = false;
+            // 
+            // labelDnaVsRnaTest
+            // 
+            this.labelDnaVsRnaTest.AutoSize = true;
+            this.labelDnaVsRnaTest.Font = new System.Drawing.Font("Maiandra GD", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelDnaVsRnaTest.ForeColor = System.Drawing.Color.Maroon;
+            this.labelDnaVsRnaTest.Location = new System.Drawing.Point(13, 213);
+            this.labelDnaVsRnaTest.Name = "labelDnaVsRnaTest";
+            this.labelDnaVsRnaTest.Size = new System.Drawing.Size(421, 32);
+            this.labelDnaVsRnaTest.TabIndex = 18;
+            this.labelDnaVsRnaTest.Text = "Test for DNA vs. RNA comparison";
+            // 
+            // labelTestRna
+            // 
+            this.labelTestRna.AutoSize = true;
+            this.labelTestRna.Font = new System.Drawing.Font("Maiandra GD", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTestRna.ForeColor = System.Drawing.Color.Maroon;
+            this.labelTestRna.Location = new System.Drawing.Point(13, 106);
+            this.labelTestRna.Name = "labelTestRna";
+            this.labelTestRna.Size = new System.Drawing.Size(169, 32);
+            this.labelTestRna.TabIndex = 17;
+            this.labelTestRna.Text = "Test for RNA";
+            // 
+            // labelTestDna
+            // 
+            this.labelTestDna.AutoSize = true;
+            this.labelTestDna.BackColor = System.Drawing.Color.White;
+            this.labelTestDna.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.labelTestDna.Font = new System.Drawing.Font("Maiandra GD", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTestDna.ForeColor = System.Drawing.Color.Coral;
+            this.labelTestDna.Location = new System.Drawing.Point(13, 0);
+            this.labelTestDna.Name = "labelTestDna";
+            this.labelTestDna.Size = new System.Drawing.Size(174, 34);
+            this.labelTestDna.TabIndex = 16;
+            this.labelTestDna.Text = "Test for DNA";
             // 
             // linkDnaRnaWatson
             // 
@@ -293,40 +298,45 @@
             this.label1.TabIndex = 0;
             this.label1.Text = resources.GetString("label1.Text");
             // 
-            // labelTestDna
+            // pictureBox1
             // 
-            this.labelTestDna.AutoSize = true;
-            this.labelTestDna.BackColor = System.Drawing.Color.White;
-            this.labelTestDna.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.labelTestDna.Font = new System.Drawing.Font("Maiandra GD", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTestDna.ForeColor = System.Drawing.Color.Coral;
-            this.labelTestDna.Location = new System.Drawing.Point(13, 0);
-            this.labelTestDna.Name = "labelTestDna";
-            this.labelTestDna.Size = new System.Drawing.Size(174, 34);
-            this.labelTestDna.TabIndex = 16;
-            this.labelTestDna.Text = "Test for DNA";
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Image = global::KorisnickiProekt.Properties.Resources.LT_Exercises;
+            this.pictureBox1.Location = new System.Drawing.Point(217, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(58, 55);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // labelTestRna
+            // pictureBox2
             // 
-            this.labelTestRna.AutoSize = true;
-            this.labelTestRna.Font = new System.Drawing.Font("Maiandra GD", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTestRna.ForeColor = System.Drawing.Color.Maroon;
-            this.labelTestRna.Location = new System.Drawing.Point(13, 106);
-            this.labelTestRna.Name = "labelTestRna";
-            this.labelTestRna.Size = new System.Drawing.Size(169, 32);
-            this.labelTestRna.TabIndex = 17;
-            this.labelTestRna.Text = "Test for RNA";
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = global::KorisnickiProekt.Properties.Resources.dock_icon_home_button_by_moa_isa_jediknight;
+            this.pictureBox2.Location = new System.Drawing.Point(18, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(62, 55);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 7;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // labelDnaVsRnaTest
+            // pictureBox3
             // 
-            this.labelDnaVsRnaTest.AutoSize = true;
-            this.labelDnaVsRnaTest.Font = new System.Drawing.Font("Maiandra GD", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDnaVsRnaTest.ForeColor = System.Drawing.Color.Maroon;
-            this.labelDnaVsRnaTest.Location = new System.Drawing.Point(13, 213);
-            this.labelDnaVsRnaTest.Name = "labelDnaVsRnaTest";
-            this.labelDnaVsRnaTest.Size = new System.Drawing.Size(421, 32);
-            this.labelDnaVsRnaTest.TabIndex = 18;
-            this.labelDnaVsRnaTest.Text = "Test for DNA vs. RNA comparison";
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox3.Image = global::KorisnickiProekt.Properties.Resources.Ord__Prof__Mukrimin_Halil_Yinanc_Kutuphanesi_site_link_1507042248572310;
+            this.pictureBox3.Location = new System.Drawing.Point(116, 8);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(70, 50);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 8;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // Form1
             // 
@@ -336,17 +346,20 @@
             this.BackgroundImage = global::KorisnickiProekt.Properties.Resources.DNA_Strand;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1005, 501);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panelTests);
-            this.Controls.Add(this.testsBtn);
-            this.Controls.Add(this.materialsBtn);
             this.Controls.Add(this.panelMaterials);
-            this.Controls.Add(this.homeBtn);
             this.Controls.Add(this.panelHome);
             this.DoubleBuffered = true;
             this.Name = "Form1";
             this.Text = "Form1";
             this.panelTests.ResumeLayout(false);
             this.panelTests.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -355,9 +368,6 @@
 
         private System.Windows.Forms.Panel panelHome;
         private System.Windows.Forms.Panel panelMaterials;
-        private System.Windows.Forms.Button homeBtn;
-        private System.Windows.Forms.Button materialsBtn;
-        private System.Windows.Forms.Button testsBtn;
         private System.Windows.Forms.Panel panelTests;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.LinkLabel linkNajbitno;
@@ -377,6 +387,9 @@
         private System.Windows.Forms.Label labelDnaVsRnaTest;
         private System.Windows.Forms.Label labelTestRna;
         private System.Windows.Forms.Label labelTestDna;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
 

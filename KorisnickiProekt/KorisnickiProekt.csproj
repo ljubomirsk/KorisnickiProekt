@@ -53,6 +53,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestDNA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestDNA.Designer.cs">
+      <DependentUpon>TestDNA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestRNA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestRNA.Designer.cs">
+      <DependentUpon>TestRNA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestRnaDna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestRnaDna.Designer.cs">
+      <DependentUpon>TestRnaDna.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -66,6 +84,15 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="TestDNA.resx">
+      <DependentUpon>TestDNA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestRNA.resx">
+      <DependentUpon>TestRNA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestRnaDna.resx">
+      <DependentUpon>TestRnaDna.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -87,6 +114,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\shutterstock_61775431.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LT-Exercises.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dock_icon_home_button_by_moa_isa_jediknight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ord._Prof._Mukrimin_Halil_Yinanc_Kutuphanesi_site_link_1507042248572310.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
