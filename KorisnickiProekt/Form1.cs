@@ -111,5 +111,23 @@ namespace KorisnickiProekt
 
             this.BackgroundImage = Properties.Resources.dna_1370603787LgY;
         }
+
+        private void labelTestDna_Click(object sender, System.EventArgs e)
+        {
+            TestDNA dnaForm = new TestDNA();
+            dnaForm.Show();
+        }
+
+        private void labelTestRna_Click(object sender, System.EventArgs e)
+        {
+            TestRNA rnaForm = new TestRNA();
+            rnaForm.Show();
+        }
+
+        private void labelDnaVsRnaTest_Click(object sender, System.EventArgs e)
+        {
+            TestRnaDna rnaDnaTest = new TestRnaDna();
+            rnaDnaTest.Show();
+        }
     }
 }

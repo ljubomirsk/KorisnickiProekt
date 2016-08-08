@@ -106,37 +106,45 @@
             // labelDnaVsRnaTest
             // 
             this.labelDnaVsRnaTest.AutoSize = true;
+            this.labelDnaVsRnaTest.BackColor = System.Drawing.Color.White;
+            this.labelDnaVsRnaTest.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelDnaVsRnaTest.Font = new System.Drawing.Font("Maiandra GD", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDnaVsRnaTest.ForeColor = System.Drawing.Color.Maroon;
+            this.labelDnaVsRnaTest.ForeColor = System.Drawing.Color.OrangeRed;
             this.labelDnaVsRnaTest.Location = new System.Drawing.Point(13, 213);
             this.labelDnaVsRnaTest.Name = "labelDnaVsRnaTest";
             this.labelDnaVsRnaTest.Size = new System.Drawing.Size(421, 32);
             this.labelDnaVsRnaTest.TabIndex = 18;
             this.labelDnaVsRnaTest.Text = "Test for DNA vs. RNA comparison";
+            this.labelDnaVsRnaTest.Click += new System.EventHandler(this.labelDnaVsRnaTest_Click);
             // 
             // labelTestRna
             // 
             this.labelTestRna.AutoSize = true;
+            this.labelTestRna.BackColor = System.Drawing.Color.White;
+            this.labelTestRna.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelTestRna.Font = new System.Drawing.Font("Maiandra GD", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTestRna.ForeColor = System.Drawing.Color.Maroon;
+            this.labelTestRna.ForeColor = System.Drawing.Color.OrangeRed;
             this.labelTestRna.Location = new System.Drawing.Point(13, 106);
             this.labelTestRna.Name = "labelTestRna";
             this.labelTestRna.Size = new System.Drawing.Size(169, 32);
             this.labelTestRna.TabIndex = 17;
             this.labelTestRna.Text = "Test for RNA";
+            this.labelTestRna.Click += new System.EventHandler(this.labelTestRna_Click);
             // 
             // labelTestDna
             // 
             this.labelTestDna.AutoSize = true;
             this.labelTestDna.BackColor = System.Drawing.Color.White;
             this.labelTestDna.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.labelTestDna.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelTestDna.Font = new System.Drawing.Font("Maiandra GD", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTestDna.ForeColor = System.Drawing.Color.Coral;
+            this.labelTestDna.ForeColor = System.Drawing.Color.OrangeRed;
             this.labelTestDna.Location = new System.Drawing.Point(13, 0);
             this.labelTestDna.Name = "labelTestDna";
             this.labelTestDna.Size = new System.Drawing.Size(174, 34);
             this.labelTestDna.TabIndex = 16;
             this.labelTestDna.Text = "Test for DNA";
+            this.labelTestDna.Click += new System.EventHandler(this.labelTestDna_Click);
             // 
             // linkDnaRnaWatson
             // 

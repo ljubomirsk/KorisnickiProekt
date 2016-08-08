@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace KorisnickiProekt
 {
-    public partial class TestRnaDna : Form
+    public partial class Results : Form
     {
-        public TestRnaDna()
+        public Results()
         {
             InitializeComponent();
+            
+        }
+
+        public void setCorrectAnswers(int correctAnswers)
+        {
+            lblResult.Text = "You have got " + correctAnswers.ToString() + "/7 correct answers.";
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

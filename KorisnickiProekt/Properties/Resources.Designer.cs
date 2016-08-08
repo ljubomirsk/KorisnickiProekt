@@ -63,6 +63,16 @@ namespace KorisnickiProekt.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap _103014_3d_glossy_green_orb_icon_alphanumeric_word_ok1_sc49 {
+            get {
+                object obj = ResourceManager.GetObject("_103014_3d_glossy_green_orb_icon_alphanumeric_word_ok1_sc49", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap dna_1370603787LgY {
             get {
                 object obj = ResourceManager.GetObject("dna_1370603787LgY", resourceCulture);
@@ -116,6 +126,16 @@ namespace KorisnickiProekt.Properties {
         public static System.Drawing.Bitmap shutterstock_61775431 {
             get {
                 object obj = ResourceManager.GetObject("shutterstock_61775431", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap tick_128 {
+            get {
+                object obj = ResourceManager.GetObject("tick_128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
