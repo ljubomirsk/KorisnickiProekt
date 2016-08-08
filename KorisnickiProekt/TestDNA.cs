@@ -12,7 +12,7 @@ namespace KorisnickiProekt
 {
     public partial class TestDNA : Form
     {
-        public int CorrerctAnswers { get; set; }
+        public int CorrectAnswers { get; set; }
 
         public TestDNA()
         {
@@ -23,35 +23,35 @@ namespace KorisnickiProekt
         {
             if (rbQ1Correct.Checked)
             {
-                CorrerctAnswers++;
+                CorrectAnswers++;
             }
             if (rbQ2Correct.Checked)
             {
-                CorrerctAnswers++;
+                CorrectAnswers++;
             }
             if (rbQ3Correct.Checked)
             {
-                CorrerctAnswers++;
+                CorrectAnswers++;
             }
             if (rbQ4Correct.Checked)
             {
-                CorrerctAnswers++;
+                CorrectAnswers++;
             }
             if (rbQ5Correct.Checked)
             {
-                CorrerctAnswers++;
+                CorrectAnswers++;
             }
             if (rbQ6Correct.Checked)
             {
-                CorrerctAnswers++;
+                CorrectAnswers++;
             }
             if (rbQ7Correct.Checked)
             {
-                CorrerctAnswers++;
+                CorrectAnswers++;
             }
 
             Results result = new Results();
-            result.setCorrectAnswers(CorrerctAnswers);
+            result.setCorrectAnswers(CorrectAnswers);
             result.FormBorderStyle = FormBorderStyle.FixedSingle;
             result.ShowDialog();
             Close();

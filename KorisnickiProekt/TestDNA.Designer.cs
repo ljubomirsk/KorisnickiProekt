@@ -135,9 +135,9 @@
             this.rbQ2Correct.AutoSize = true;
             this.rbQ2Correct.Location = new System.Drawing.Point(3, 35);
             this.rbQ2Correct.Name = "rbQ2Correct";
-            this.rbQ2Correct.Size = new System.Drawing.Size(196, 17);
+            this.rbQ2Correct.Size = new System.Drawing.Size(202, 17);
             this.rbQ2Correct.TabIndex = 1;
-            this.rbQ2Correct.Text = "Adenine, Tymine, Guanine, Cytosine";
+            this.rbQ2Correct.Text = "Adenine, Thymine, Guanine, Cytosine";
             this.rbQ2Correct.UseVisualStyleBackColor = true;
             // 
             // rbQ2A1

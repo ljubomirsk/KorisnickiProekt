@@ -124,7 +124,7 @@
             this.labelTestRna.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelTestRna.Font = new System.Drawing.Font("Maiandra GD", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTestRna.ForeColor = System.Drawing.Color.OrangeRed;
-            this.labelTestRna.Location = new System.Drawing.Point(13, 106);
+            this.labelTestRna.Location = new System.Drawing.Point(13, 107);
             this.labelTestRna.Name = "labelTestRna";
             this.labelTestRna.Size = new System.Drawing.Size(169, 32);
             this.labelTestRna.TabIndex = 17;
@@ -149,6 +149,7 @@
             // linkDnaRnaWatson
             // 
             this.linkDnaRnaWatson.AutoSize = true;
+            this.linkDnaRnaWatson.LinkColor = System.Drawing.Color.Red;
             this.linkDnaRnaWatson.Location = new System.Drawing.Point(16, 355);
             this.linkDnaRnaWatson.Name = "linkDnaRnaWatson";
             this.linkDnaRnaWatson.Size = new System.Drawing.Size(77, 13);
@@ -160,6 +161,7 @@
             // linkGenomeSeq
             // 
             this.linkGenomeSeq.AutoSize = true;
+            this.linkGenomeSeq.LinkColor = System.Drawing.Color.Red;
             this.linkGenomeSeq.Location = new System.Drawing.Point(16, 329);
             this.linkGenomeSeq.Name = "linkGenomeSeq";
             this.linkGenomeSeq.Size = new System.Drawing.Size(105, 13);
@@ -171,6 +173,7 @@
             // linkDnaAdd
             // 
             this.linkDnaAdd.AutoSize = true;
+            this.linkDnaAdd.LinkColor = System.Drawing.Color.Red;
             this.linkDnaAdd.Location = new System.Drawing.Point(16, 305);
             this.linkDnaAdd.Name = "linkDnaAdd";
             this.linkDnaAdd.Size = new System.Drawing.Size(119, 13);
@@ -182,6 +185,7 @@
             // linkDnaRnaBook
             // 
             this.linkDnaRnaBook.AutoSize = true;
+            this.linkDnaRnaBook.LinkColor = System.Drawing.Color.Red;
             this.linkDnaRnaBook.Location = new System.Drawing.Point(16, 248);
             this.linkDnaRnaBook.Name = "linkDnaRnaBook";
             this.linkDnaRnaBook.Size = new System.Drawing.Size(134, 13);
@@ -193,6 +197,7 @@
             // linkDnaVsRna
             // 
             this.linkDnaVsRna.AutoSize = true;
+            this.linkDnaVsRna.LinkColor = System.Drawing.Color.Red;
             this.linkDnaVsRna.Location = new System.Drawing.Point(16, 223);
             this.linkDnaVsRna.Name = "linkDnaVsRna";
             this.linkDnaVsRna.Size = new System.Drawing.Size(70, 13);
@@ -204,6 +209,7 @@
             // linkRnaDetail
             // 
             this.linkRnaDetail.AutoSize = true;
+            this.linkRnaDetail.LinkColor = System.Drawing.Color.Red;
             this.linkRnaDetail.Location = new System.Drawing.Point(16, 146);
             this.linkRnaDetail.Name = "linkRnaDetail";
             this.linkRnaDetail.Size = new System.Drawing.Size(70, 13);
@@ -215,6 +221,7 @@
             // linkRna
             // 
             this.linkRna.AutoSize = true;
+            this.linkRna.LinkColor = System.Drawing.Color.Red;
             this.linkRna.Location = new System.Drawing.Point(16, 122);
             this.linkRna.Name = "linkRna";
             this.linkRna.Size = new System.Drawing.Size(63, 13);
@@ -226,6 +233,7 @@
             // linkGenomes
             // 
             this.linkGenomes.AutoSize = true;
+            this.linkGenomes.LinkColor = System.Drawing.Color.Red;
             this.linkGenomes.Location = new System.Drawing.Point(16, 64);
             this.linkGenomes.Name = "linkGenomes";
             this.linkGenomes.Size = new System.Drawing.Size(99, 13);
@@ -237,6 +245,7 @@
             // linkDnaNotes
             // 
             this.linkDnaNotes.AutoSize = true;
+            this.linkDnaNotes.LinkColor = System.Drawing.Color.Red;
             this.linkDnaNotes.Location = new System.Drawing.Point(16, 42);
             this.linkDnaNotes.Name = "linkDnaNotes";
             this.linkDnaNotes.Size = new System.Drawing.Size(59, 13);
@@ -288,6 +297,7 @@
             // linkNajbitno
             // 
             this.linkNajbitno.AutoSize = true;
+            this.linkNajbitno.LinkColor = System.Drawing.Color.Red;
             this.linkNajbitno.Location = new System.Drawing.Point(16, 200);
             this.linkNajbitno.Name = "linkNajbitno";
             this.linkNajbitno.Size = new System.Drawing.Size(110, 13);
