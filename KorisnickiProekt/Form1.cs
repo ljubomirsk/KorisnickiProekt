@@ -1,6 +1,7 @@
 ﻿using KorisnickiProekt.Properties;
 using System.Drawing;
 using System.IO;
+using System.Reflection;
 using System.Windows.Forms;
 
 namespace KorisnickiProekt
@@ -33,52 +34,52 @@ namespace KorisnickiProekt
 
         private void linkNajbitno_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("najbitnoto.pdf");
+            System.Diagnostics.Process.Start("..\\..\\Resources\\najbitnoto.pdf");
         }
 
         private void linkDnaNotes_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("DNA-notes.pdf");
+            System.Diagnostics.Process.Start("..\\..\\Resources\\DNA-notes.pdf");
         }
 
         private void linkGenomes_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("genome.pdf");
+            System.Diagnostics.Process.Start("..\\..\\Resources\\genome.pdf");
         }
 
         private void linkRna_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("RNA.pdf");
+            System.Diagnostics.Process.Start("..\\..\\Resources\\RNA.pdf");
         }
 
         private void linkRnaDetail_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("RNA2.pdf");
+            System.Diagnostics.Process.Start("..\\..\\Resources\\RNA2.pdf");
         }
 
         private void linkDnaVsRna_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("BIO101-DNA-vs-RNA.pdf");
+            System.Diagnostics.Process.Start("..\\..\\Resources\\BIO101-DNA-vs-RNA.pdf");
         }
 
         private void linkDnaRnaBook_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("RnaDna.pdf");
+            System.Diagnostics.Process.Start("..\\..\\Resources\\RnaDna.pdf");
         }
 
         private void linkDnaAdd_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("9780815365099_ch02.pdf");
+            System.Diagnostics.Process.Start("..\\..\\Resources\\9780815365099_ch02.pdf");
         }
 
         private void linkGenomeSeq_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("Genome-sequencing-PMG-overheads.pdf");
+            System.Diagnostics.Process.Start("..\\..\\Resources\\Genome-sequencing-PMG-overheads.pdf");
         }
 
         private void linkDnaRnaWatson_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("watson_06.pdf");
+            System.Diagnostics.Process.Start("..\\..\\Resources\\watson_06.pdf");
         }
 
         private void pictureBox1_Click(object sender, System.EventArgs e)

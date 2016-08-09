@@ -122,6 +122,9 @@
     <None Include="Resources\DNA-Strand.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\najbitnoto.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Resources\shutterstock_61775431.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -138,6 +141,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\103014-3d-glossy-green-orb-icon-alphanumeric-word-ok1-sc49.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
